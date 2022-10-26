@@ -27,7 +27,7 @@ This is a private repository to deliver the Alveo Training Material on October 2
 			Vitis Acceleration Platforms and Tool flow 
 			</td>
             <td>
-            <a href= "![Introduction-to-Data-Center-Acceleration-for-Software-Programmers](https://docs.xilinx.com/r/en-US/ug1393-vitis-application-acceleration/Introduction-to-Data-Center-Acceleration-for-Software-Programmers)" >Introduction-to-Data-Center-Acceleration-for-Software-Programmers Extension</a>
+            <a href= "[Introduction-to-Data-Center-Acceleration-for-Software-Programmers](https://docs.xilinx.com/r/en-US/ug1393-vitis-application-acceleration/Introduction-to-Data-Center-Acceleration-for-Software-Programmers)" >Introduction-to-Data-Center-Acceleration-for-Software-Programmers Extension</a>
             </td>
         </tr>
         <tr>
