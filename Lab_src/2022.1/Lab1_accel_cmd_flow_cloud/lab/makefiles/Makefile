@@ -94,6 +94,7 @@ VPPFLAGS += --config design.cfg
 VPPFLAGS += -I$(KERNEL_SRC_H_DIR)
 VPPFLAGS += --temp_dir $(BUILD_DIR)
 VPPFLAGS += --log_dir $(BUILD_DIR)
+VPPFLAGS += --save-temps
 
 # =========================================================
 # Host Executable File Generation
