@@ -1,0 +1,28 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ compile can be found at:
+	Reports: /home/xilinx/training/optimization/lab/build/opt_1_baselining/hw_emu/reports/KA.hw_emu
+	Log files: /home/xilinx/training/optimization/lab/build/opt_1_baselining/hw_emu/KA.hw_emu
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/xilinx/training/optimization/lab/build/opt_1_baselining/hw_emu/KA.hw_emu.xo.compile_summary, at Wed Jan 19 13:53:18 2022
+INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Wed Jan 19 13:53:18 2022
+INFO: [v++ 60-1315] Creating rulecheck session with output '/home/xilinx/training/optimization/lab/build/opt_1_baselining/hw_emu/reports/KA.hw_emu/v++_compile_KA.hw_emu_guidance.html', at Wed Jan 19 13:53:20 2022
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/xilinx_u50_gen3x16_xdma_201920_3.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/hw/hw.xsa'
+INFO: [v++ 74-78] Compiler Version string: 2021.2
+INFO: [v++ 60-1302] Platform 'xilinx_u50_gen3x16_xdma_201920_3.xpfm' has been explicitly enabled for this release.
+INFO: [v++ 60-585] Compiling for hardware emulation target
+INFO: [v++ 60-423]   Target device: xilinx_u50_gen3x16_xdma_201920_3
+INFO: [v++ 60-242] Creating kernel: 'KA'
+
+===>The following messages were generated while  performing high-level synthesis for kernel: KA Log file: /home/xilinx/training/optimization/lab/build/opt_1_baselining/hw_emu/KA.hw_emu/KA/vitis_hls.log :
+INFO: [v++ 204-61] Pipelining loop 'loop_st_1'.
+WARNING: [v++ 200-885] The II Violation in module 'KA_Pipeline_loop_st_1' (loop 'loop_st_1'): Unable to schedule bus request operation ('gmem_load_1_req', /home/xilinx/training/optimization/lab/src/opt_1_baselining/K_KA.cpp:43) on port 'gmem' (/home/xilinx/training/optimization/lab/src/opt_1_baselining/K_KA.cpp:43) due to limited memory ports (II = 1). Please consider using a memory core with more ports or partitioning the array.
+Resolution: For help on HLS 200-885 see www.xilinx.com/cgi-bin/docs/rdoc?v=2021.2;t=hls+guidance;d=200-885.html
+INFO: [v++ 200-1470] Pipelining result : Target II = NA, Final II = 2, Depth = 76, loop 'loop_st_1'
+INFO: [v++ 200-790] **** Loop Constraint Status: All loop constraints were NOT satisfied.
+INFO: [v++ 200-789] **** Estimated Fmax: 411.00 MHz
+INFO: [v++ 60-594] Finished kernel compilation
+INFO: [v++ 60-244] Generating system estimate report...
+INFO: [v++ 60-1092] Generated system estimate report: /home/xilinx/training/optimization/lab/build/opt_1_baselining/hw_emu/reports/KA.hw_emu/system_estimate_KA.hw_emu.xtxt
+INFO: [v++ 60-586] Created /home/xilinx/training/optimization/lab/build/opt_1_baselining/hw_emu/KA.hw_emu.xo
+INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+    vitis_analyzer /home/xilinx/training/optimization/lab/build/opt_1_baselining/hw_emu/KA.hw_emu.xo.compile_summary 
+INFO: [v++ 60-791] Total elapsed time: 0h 1m 27s

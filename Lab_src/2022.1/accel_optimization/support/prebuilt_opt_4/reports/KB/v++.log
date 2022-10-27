@@ -1,0 +1,28 @@
+INFO: [v++ 60-1306] Additional information associated with this v++ compile can be found at:
+	Reports: /home/xilinx/training/optimization/lab/build/opt_1_baselining/hw_emu/reports/KB.hw_emu
+	Log files: /home/xilinx/training/optimization/lab/build/opt_1_baselining/hw_emu/KB.hw_emu
+INFO: [v++ 60-1548] Creating build summary session with primary output /home/xilinx/training/optimization/lab/build/opt_1_baselining/hw_emu/KB.hw_emu.xo.compile_summary, at Wed Jan 19 13:54:49 2022
+INFO: [v++ 60-1316] Initiating connection to rulecheck server, at Wed Jan 19 13:54:49 2022
+INFO: [v++ 60-1315] Creating rulecheck session with output '/home/xilinx/training/optimization/lab/build/opt_1_baselining/hw_emu/reports/KB.hw_emu/v++_compile_KB.hw_emu_guidance.html', at Wed Jan 19 13:54:50 2022
+INFO: [v++ 60-895]   Target platform: /opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/xilinx_u50_gen3x16_xdma_201920_3.xpfm
+INFO: [v++ 60-1578]   This platform contains Xilinx Shell Archive '/opt/xilinx/platforms/xilinx_u50_gen3x16_xdma_201920_3/hw/hw.xsa'
+INFO: [v++ 74-78] Compiler Version string: 2021.2
+INFO: [v++ 60-1302] Platform 'xilinx_u50_gen3x16_xdma_201920_3.xpfm' has been explicitly enabled for this release.
+INFO: [v++ 60-585] Compiling for hardware emulation target
+INFO: [v++ 60-423]   Target device: xilinx_u50_gen3x16_xdma_201920_3
+INFO: [v++ 60-242] Creating kernel: 'KB'
+
+===>The following messages were generated while  performing high-level synthesis for kernel: KB Log file: /home/xilinx/training/optimization/lab/build/opt_1_baselining/hw_emu/KB.hw_emu/KB/vitis_hls.log :
+INFO: [v++ 204-61] Pipelining loop 'VITIS_LOOP_44_1'.
+INFO: [v++ 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 4, loop 'VITIS_LOOP_44_1'
+INFO: [v++ 204-61] Pipelining loop 'VITIS_LOOP_48_2'.
+INFO: [v++ 200-1470] Pipelining result : Target II = NA, Final II = 1, Depth = 4, loop 'VITIS_LOOP_48_2'
+INFO: [v++ 200-790] **** Loop Constraint Status: All loop constraints were satisfied.
+INFO: [v++ 200-789] **** Estimated Fmax: 411.00 MHz
+INFO: [v++ 60-594] Finished kernel compilation
+INFO: [v++ 60-244] Generating system estimate report...
+INFO: [v++ 60-1092] Generated system estimate report: /home/xilinx/training/optimization/lab/build/opt_1_baselining/hw_emu/reports/KB.hw_emu/system_estimate_KB.hw_emu.xtxt
+INFO: [v++ 60-586] Created /home/xilinx/training/optimization/lab/build/opt_1_baselining/hw_emu/KB.hw_emu.xo
+INFO: [v++ 60-2343] Use the vitis_analyzer tool to visualize and navigate the relevant reports. Run the following command. 
+    vitis_analyzer /home/xilinx/training/optimization/lab/build/opt_1_baselining/hw_emu/KB.hw_emu.xo.compile_summary 
+INFO: [v++ 60-791] Total elapsed time: 0h 1m 29s

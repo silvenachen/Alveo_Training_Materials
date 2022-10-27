@@ -27,87 +27,106 @@ This is a private repository to deliver the Alveo Training Material on October 2
 			Vitis Acceleration Platforms and Tool flow 
 			</td>
             <td>
-            <a href= "[Introduction-to-Data-Center-Acceleration-for-Software-Programmers](https://docs.xilinx.com/r/en-US/ug1393-vitis-application-acceleration/Introduction-to-Data-Center-Acceleration-for-Software-Programmers)" >Introduction-to-Data-Center-Acceleration-for-Software-Programmers Extension</a>
+            <a href= "https://docs.xilinx.com/r/en-US/ug1393-vitis-application-acceleration/Introduction-to-Data-Center-Acceleration-for-Software-Programmers" >Introduction-to-Data-Center-Acceleration-for-Software-Programmers Extension</a>
             </td>
         </tr>
         <tr>
             <td height="24">
-            1
             </td>
             <td>
-            3
             </td>
             <td>
-            300
+            Getting Started with Alveo Card : Installation and Configuration
             </td>
 			<td>
-			300*3/9=100
-			</td>
-            <td>
-			1920*1080*60*3=373.2
-			</td>
-            <td>
-			4264
+            <a href= "https://xilinx.github.io/Alveo-Cards/master/debugging/build/html/docs/card-install.html">Alveo Card Debug Guide</a>
 			</td>
         </tr>
         <tr>
             <td height="24">
-            3
             </td>
             <td>
-            1
             </td>
             <td>
-            300
+            Lab1: Build and Run the VADD Application using command line
             </td>
 			<td>
-			300*3/1=100
+			<a href= "./Lab_src/2022.1/accel_cmd_flow_cloud">Vitis Command Line Flow Lab Guide</a>
+			</td>
+        <tr>
+            <td height="24">
+            Saturday, October 29
+            </td>
+            <td>
+            9:00 AM-11:30 AM
+            </td>
+            <td>
+			Vitis HLS : C++ kernel optimization
 			</td>
             <td>
-			1920*1080*60*3=373.2
-			</td>
+            <a href= "https://docs.xilinx.com/r/en-US/ug1393-vitis-application-acceleration/Introduction-to-Data-Center-Acceleration-for-Software-Programmers" >Introduction-to-Data-Center-Acceleration-for-Software-Programmers Extension</a>
+            </td>
+        </tr>
+        <tr>
+            <td height="24">
+            </td>
             <td>
-			4264
+            </td>
+            <td>
+            Optimization Methodology
+            </td>
+			<td>
+            <a href= "https://docs.xilinx.com/r/en-US/ug1393-vitis-application-acceleration/Methodology-for-Accelerating-Data-Center-Applications-with-the-Vitis-Software-Platform">Alveo Optimization Methodology Guide</a>
 			</td>
         </tr>
         <tr>
             <td height="24">
-            9
             </td>
             <td>
-            1
             </td>
             <td>
-            300
+            Lab2: Accelerating Video Convolution Filtering Application
             </td>
 			<td>
-			300*1=300
+			<a href= "https://github.com/Xilinx/Vitis-Tutorials/tree/2022.1/Hardware_Acceleration/Design_Tutorials/01-convolution-tutorial">Convolution Filtering Lab Guide</a>
+			</td>
+        </tr>
+                <tr>
+            <td height="24">
+            Saturday, October 29
+            </td>
+            <td>
+            2:00 PM-5:00 PM
+            </td>
+            <td>
+			Host Code Optimization                
 			</td>
             <td>
-			1920*1080*60*3=373.2
-			</td>
+            <a href= "https://docs.xilinx.com/r/2022.1-English/ug1393-vitis-application-acceleration/OpenCL-Programming" >OpenCL Programming</a>
+            </td>
+        </tr>
+        <tr>
+            <td height="24">
+            </td>
             <td>
-			4264
+            </td>
+            <td>
+            Profiling: Vitis Design Analyzer
+            </td>
+			<td>
+            <a href= "https://docs.xilinx.com/r/2022.1-English/ug1393-vitis-application-acceleration/Profiling-the-Application">Profiling the Application</a>
 			</td>
         </tr>
         <tr>
             <td height="24">
-            9
             </td>
             <td>
-            3
             </td>
             <td>
-            300
+            Lab3: Optimizing the Performance of the Design
             </td>
 			<td>
-			300*3=900
-			</td>
-            <td>
-			1920*1080*60*3=373.2
-			</td>
-            <td>
-			4264
+			<a href= "./Lab_src/2022.1/accel_optimization">Optimize the Performance of a Whole Design</a>
 			</td>
         </tr>
 </table>
