@@ -25,6 +25,7 @@ help::
 # =========================================================
 PLATFORM_VENDOR := Xilinx
 PLATFORM := xilinx_u50_gen3x16_xdma_5_202210_1
+DEVICE := xilinx_u50_gen3x16_xdma_base_5
 
 # =========================================================
 # TARGET can be set as:
@@ -137,7 +138,7 @@ run: #build
 	pwd	
 	cp xrt.ini $(BUILD_DIR);
 ifeq ($(TARGET), hw)
-	cd $(BUILD_DIR) && unset XCL_EMULATION_MODE;    ./$(HOST_EXE)  --kernel_name K_VADD ./$(XCLBIN) ;
+	cd $(BUILD_DIR) && unset XCL_EMULATION_MODE;    ./$(HOST_EXE) $(PLATFORM_VENDOR) $(DEVICE) $(XCLBIN) $(DATA_REPO)/data_1.txt $(DATA_REPO)/data_2.txt;
 else
 ifeq ($(PREBUILT), NO)
 	cd $(BUILD_DIR) && XCL_EMULATION_MODE=$(TARGET) ./$(HOST_EXE) $(PLATFORM_VENDOR) $(PLATFORM) $(XCLBIN) $(DATA_REPO)/data_1.txt $(DATA_REPO)/data_2.txt;
