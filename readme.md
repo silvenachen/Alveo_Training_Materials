@@ -51,7 +51,7 @@ This is a private repository to deliver the Alveo Training Material on October 2
             Lab1: Build and Run the VADD Application using command line
             </td>
 			<td>
-			<a href= "./Lab_src/2022.1/accel_cmd_flow_cloud">Vitis Command Line Flow Lab Guide</a>
+			<a href= "./Lab_src/2022.1/Lab1_accel_cmd_flow_cloud">Vitis Command Line Flow Lab Guide</a>
 			</td>
         <tr>
             <td height="24">
@@ -88,7 +88,7 @@ This is a private repository to deliver the Alveo Training Material on October 2
             Lab2: Accelerating Video Convolution Filtering Application
             </td>
 			<td>
-			<a href= "https://github.com/Xilinx/Vitis-Tutorials/tree/2022.1/Hardware_Acceleration/Design_Tutorials/01-convolution-tutorial">Convolution Filtering Lab Guide</a>
+			<a href= "./Lab_src/2022.1/Lab2_convolution_tutorial">Convolution Filtering Lab Guide</a>
 			</td>
         </tr>
                 <tr>
@@ -126,7 +126,7 @@ This is a private repository to deliver the Alveo Training Material on October 2
             Lab3: Optimizing the Performance of the Design
             </td>
 			<td>
-			<a href= "./Lab_src/2022.1/accel_optimization">Optimize the Performance of a Whole Design</a>
+			<a href= "./Lab_src/2022.1/Lab3_accel_optimization">Optimize the Performance of a Whole Design</a>
 			</td>
         </tr>
 </table>
